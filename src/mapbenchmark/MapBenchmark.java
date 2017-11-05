@@ -153,8 +153,8 @@ class HausnummerPlzExact implements Comparable<HausnummerPlzExact> {
     static int getNumberOfComparisons() {
         return _numberOfComparisons;
     }
-    private int _hausnummer;
-    private int _plz;
+    private final int _hausnummer;
+    private final int _plz;
     static private int _numberOfComparisons;
 };
 
